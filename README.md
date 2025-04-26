@@ -27,7 +27,7 @@
 - `books_issue_audit` — Tracks insert, update, delete in `books_issue`
 
 ### Triggers
-- Triggers on table books_issue (target table books_issue_audit)
+ Triggers on table books_issue (target table books_issue_audit)
 - after_books_issue_delete
 - after_books_issue_update
 - after_books_issue_insert
