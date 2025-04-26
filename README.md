@@ -26,6 +26,10 @@
 - `book_loans_audit` — Tracks insert, update, delete in `book_loans`
 - `books_issue_audit` — Tracks insert, update, delete in `books_issue`
 
+### Views
+- book_loan_view
+- branch_books_pub
+
 ### Triggers
  Triggers on table books_issue (target table books_issue_audit)
 - after_books_issue_delete
@@ -37,5 +41,16 @@ Triggers on table book_loans (target table book_loans_audit)
 - after_insert_book_loans
 - after_update_book_loans
 - set_due_date_book_loans
+
+ ### Procedures
+ - BooksLoanedOut.sql
+ - bookCopiesAtAllViking.sql
+ - test_isolation_book_issue.sql
+
+ ### Functions
+- NumberofBookBranch_func.sql
+- borrowerbooks_func.sql
+
+### All htm, php files
 
 
